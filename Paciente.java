@@ -1,4 +1,4 @@
-public class Paciente <T extends Comparable<T>> {
+public class Paciente implements Comparable<Paciente> {
 
     private String nombre, enfermedad;
     private int prioridad;
@@ -32,7 +32,10 @@ public class Paciente <T extends Comparable<T>> {
         this.prioridad = prioridad;
     }
 
-
+    @Override
+    public int compareTo(Paciente compara){
+        return 0;
+    }
     
 
 }
