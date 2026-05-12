@@ -1,0 +1,12 @@
+#Compile class files
+*.class
+
+#For VSCode
+.vscode/
+*.code-workspace
+
+#For MacOS
+.DS_Store 
+
+#Log files
+*.log 
